@@ -1,0 +1,173 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.43.1.0
+Copyright (C) 2025 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: infinitum hj, null, LIC=D0D7S-LV86W-X77RZ-J3URB-ZHPE6-XL8QD
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.43.0.0
+Toolchain Path:  D:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.43.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.3.1.0
+Dialog DLL:      TCM.DLL V1.56.6.0
+ 
+<h2>Project:</h2>
+D:\Keil_v5\Keil-program-total\RM_Program\RC_RobotDog_Rebuild20260605\MDK-ARM\RC_RobotDog_Rebuild20260605.uvprojx
+Project File Date:  06/18/2026
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'RC_RobotDog_Rebuild20260605'
+Clean started - Project: 'RC_RobotDog_Rebuild20260605'
+   deleting intermediate output files for target 'RC_RobotDog_Rebuild20260605'
+Clean done
+Note: source file '..\Development_Layer\Function_Class\foot_control.cpp' - object file renamed from 'RC_RobotDog_Rebuild20260605\foot_control.o' to 'RC_RobotDog_Rebuild20260605\foot_control_1.o'.
+Note: source file '..\Development_Layer\Robot_Control\Foot_Control\foot_control.cpp' - object file renamed from 'RC_RobotDog_Rebuild20260605\foot_control.o' to 'RC_RobotDog_Rebuild20260605\foot_control_2.o'.
+Note: source file '..\Development_Layer\Function_Class\Class_RobotDog\robotdog_class.cpp' - object file renamed from 'RC_RobotDog_Rebuild20260605\robotdog_class.o' to 'RC_RobotDog_Rebuild20260605\robotdog_class_1.o'.
+assembling startup_stm32f407xx.s...
+compiling main.c...
+../Core/Src/main.c(29): error:  #5: cannot open source input file "callback_task.h": No such file or directory
+  #include "callback_task.h"
+../Core/Src/main.c: 0 warnings, 1 error
+compiling gpio.c...
+compiling can.c...
+compiling dma.c...
+compiling tim.c...
+compiling usart.c...
+compiling stm32f4xx_it.c...
+compiling stm32f4xx_hal_msp.c...
+compiling stm32f4xx_hal_can.c...
+compiling stm32f4xx_hal_rcc.c...
+compiling stm32f4xx_hal_rcc_ex.c...
+compiling stm32f4xx_hal_flash.c...
+compiling stm32f4xx_hal_flash_ex.c...
+compiling stm32f4xx_hal_flash_ramfunc.c...
+compiling stm32f4xx_hal_gpio.c...
+compiling stm32f4xx_hal_dma_ex.c...
+compiling stm32f4xx_hal_dma.c...
+compiling stm32f4xx_hal_pwr.c...
+compiling stm32f4xx_hal_pwr_ex.c...
+compiling stm32f4xx_hal_cortex.c...
+compiling stm32f4xx_hal.c...
+compiling stm32f4xx_hal_exti.c...
+compiling stm32f4xx_hal_tim.c...
+compiling stm32f4xx_hal_tim_ex.c...
+compiling stm32f4xx_hal_uart.c...
+compiling system_stm32f4xx.c...
+compiling callback_task.cpp...
+..\Development_Layer\Task\CallBack_Task\callback_task.h(8): error:  #5: cannot open source input file "drv_can.h": No such file or directory
+  #include "drv_can.h"
+..\Development_Layer\Task\CallBack_Task\callback_task.cpp: 0 warnings, 1 error
+compiling foot_control.cpp...
+"no source": Error:  #5: cannot open source input file "..\Development_Layer\Function_Class\foot_control.cpp": No such file or directory
+..\Development_Layer\Function_Class\foot_control.cpp: 0 warnings, 1 error
+compiling foot_control.cpp...
+"no source": Error:  #5: cannot open source input file "..\Development_Layer\Function_Class\foot_control.cpp": No such file or directory
+..\Development_Layer\Function_Class\foot_control.cpp: 0 warnings, 1 error
+compiling robotdog_class.cpp...
+..\Development_Layer\Function_Class\Class_RobotDog\robotdog_class.h(7): error:  #5: cannot open source input file "foot_control.h": No such file or directory
+  #include "foot_control.h"
+..\Development_Layer\Function_Class\Class_RobotDog\robotdog_class.cpp: 0 warnings, 1 error
+compiling foot_control.cpp...
+..\Development_Layer\Robot_Control\Foot_Control\foot_control.h(8): error:  #5: cannot open source input file "Motor_DM.h": No such file or directory
+  #include "Motor_DM.h"
+..\Development_Layer\Robot_Control\Foot_Control\foot_control.cpp: 0 warnings, 1 error
+compiling PID.cpp...
+..\Development_Layer\Robot_Control\Controller\PID.h(10): error:  #5: cannot open source input file "drv_math.h": No such file or directory
+  #include "drv_math.h"
+..\Development_Layer\Robot_Control\Controller\PID.cpp: 0 warnings, 1 error
+compiling robotdog_class.cpp...
+..\Development_Layer\Function_Class\Class_RobotDog\robotdog_class.h(7): error:  #5: cannot open source input file "foot_control.h": No such file or directory
+  #include "foot_control.h"
+..\Development_Layer\Function_Class\Class_RobotDog\robotdog_class.cpp: 0 warnings, 1 error
+compiling Motor_DM.cpp...
+..\Development_Layer\External_Device\Motor\Motor_DM.h(10): error:  #5: cannot open source input file "PID.h": No such file or directory
+  #include "PID.h"
+..\Development_Layer\External_Device\Motor\Motor_DM.cpp: 0 warnings, 1 error
+compiling drv_can.cpp...
+..\Development_Layer\Driver\CAN\drv_can.cpp(46): error:  #20: identifier "nullptr" is undefined
+    if (hcan == nullptr) {
+..\Development_Layer\Driver\CAN\drv_can.cpp(64): error:  #20: identifier "nullptr" is undefined
+    if (manage_object == nullptr) {
+..\Development_Layer\Driver\CAN\drv_can.cpp(81): error:  #20: identifier "nullptr" is undefined
+    if (manage_object == nullptr) {
+..\Development_Layer\Driver\CAN\drv_can.cpp(141): error:  #20: identifier "nullptr" is undefined
+      if (manage_object != nullptr) {
+..\Development_Layer\Driver\CAN\drv_can.cpp(233): error:  #20: identifier "nullptr" is undefined
+    if (manage_object == nullptr) {
+..\Development_Layer\Driver\CAN\drv_can.cpp(275): error:  #20: identifier "nullptr" is undefined
+      if (manage_object == nullptr) {
+..\Development_Layer\Driver\CAN\drv_can.cpp(320): error:  #20: identifier "nullptr" is undefined
+    if(manager_obj->Callback_Function != nullptr)
+..\Development_Layer\Driver\CAN\drv_can.cpp(351): error:  #20: identifier "nullptr" is undefined
+    if(manager_obj->Callback_Function != nullptr)
+..\Development_Layer\Driver\CAN\drv_can.cpp(366): error:  #20: identifier "nullptr" is undefined
+    if (manage_object != nullptr) {
+..\Development_Layer\Driver\CAN\drv_can.cpp: 0 warnings, 9 errors
+compiling drv_math.cpp...
+..\Development_Layer\Driver\Math\drv_math.h(8): error:  #5: cannot open source input file "arm_math.h": No such file or directory
+  #include "arm_math.h"
+..\Development_Layer\Driver\Math\drv_math.cpp: 0 warnings, 1 error
+compiling drv_tim.cpp...
+..\Development_Layer\Driver\Tim\drv_tim.cpp(104): error:  #20: identifier "nullptr" is undefined
+          if(TIM1_Manage_Object.Callback_Function != nullptr)
+..\Development_Layer\Driver\Tim\drv_tim.cpp(111): error:  #20: identifier "nullptr" is undefined
+          if(TIM2_Manage_Object.Callback_Function != nullptr)
+..\Development_Layer\Driver\Tim\drv_tim.cpp(118): error:  #20: identifier "nullptr" is undefined
+          if(TIM3_Manage_Object.Callback_Function != nullptr)
+..\Development_Layer\Driver\Tim\drv_tim.cpp(125): error:  #20: identifier "nullptr" is undefined
+          if(TIM4_Manage_Object.Callback_Function != nullptr)
+..\Development_Layer\Driver\Tim\drv_tim.cpp(132): error:  #20: identifier "nullptr" is undefined
+          if(TIM5_Manage_Object.Callback_Function != nullptr)
+..\Development_Layer\Driver\Tim\drv_tim.cpp(139): error:  #20: identifier "nullptr" is undefined
+          if(TIM6_Manage_Object.Callback_Function != nullptr)
+..\Development_Layer\Driver\Tim\drv_tim.cpp(146): error:  #20: identifier "nullptr" is undefined
+          if(TIM8_Manage_Object.Callback_Function != nullptr)
+..\Development_Layer\Driver\Tim\drv_tim.cpp(154): error:  #20: identifier "nullptr" is undefined
+          if(TIM12_Manage_Object.Callback_Function != nullptr)
+..\Development_Layer\Driver\Tim\drv_tim.cpp(161): error:  #20: identifier "nullptr" is undefined
+          if(TIM13_Manage_Object.Callback_Function != nullptr)
+..\Development_Layer\Driver\Tim\drv_tim.cpp(168): error:  #20: identifier "nullptr" is undefined
+          if(TIM14_Manage_Object.Callback_Function != nullptr)
+..\Development_Layer\Driver\Tim\drv_tim.cpp: 0 warnings, 10 errors
+compiling drv_uart.cpp...
+"RC_RobotDog_Rebuild20260605\RC_RobotDog_Rebuild20260605.axf" - 27 Error(s), 0 Warning(s).
+
+*** Performing Cross-Module-Optimization:
+*** Feedback file 'RC_RobotDog_Rebuild20260605\RC_RobotDog_Rebuild20260605.fed' not found.
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.5.1.pack
+                ARM::CMSIS@5.5.1
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.2.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.7.0.pack
+                Keil::STM32F4xx_DFP@2.7.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_RC_RobotDog_Rebuild20260605
+  D:/Keil_v5/Arm_Packs/ARM/CMSIS/5.5.1/CMSIS/Core/Include
+  D:/Keil_v5/Arm_Packs/Keil/STM32F4xx_DFP/2.7.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE@5.2.0
+Target not created.
+Build Time Elapsed:  00:00:45
+</pre>
+</body>
+</html>
