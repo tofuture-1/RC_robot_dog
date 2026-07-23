@@ -1,4 +1,0 @@
-# 忽略 IDE 和工具配置目录
-.vscode/
-.proxyai/
-.idea/
